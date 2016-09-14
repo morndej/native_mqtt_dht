@@ -32,6 +32,10 @@
 
 // Update these with values suitable for your network.
 
+const char* ssid = "xxxxxxxxxx";
+const char* password = "xxxxxxxxxx";
+const char* mqtt_server = "xxxxxxxxxx";
+
 
 DHT dht(DHTPIN, DHTTYPE);
 WiFiClient espClient;
